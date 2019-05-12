@@ -20,7 +20,6 @@
 		<dependency>
 			<groupId>com.garen.demo</groupId>
 			<artifactId>spring-cloud-demo-api</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
