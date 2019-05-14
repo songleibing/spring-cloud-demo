@@ -12,6 +12,7 @@
         <module>spring-cloud-demo-api</module>
         <module>spring-cloud-demo-consumer</module>
         <module>spring-cloud-demo-producter</module>
+        <module>spring-cloud-demo-eureka-server</module>
     </modules>
 
     <parent>
