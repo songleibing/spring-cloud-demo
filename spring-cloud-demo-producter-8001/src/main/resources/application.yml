@@ -1,0 +1,14 @@
+server:
+    port: 8001
+
+spring:
+    application:
+        name: spring-cloud-demo-producter-${server.port}
+
+eureka:
+    client:
+        service-url:
+            defaultZone: http://localhost:7001/eureka
+    instance:
+        instance-id: ${spring.application.name}
+        prefer-ip-address: true    # 访问路径显示IP地址
