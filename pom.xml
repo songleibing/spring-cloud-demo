@@ -11,8 +11,7 @@
     <modules>
         <module>spring-cloud-demo-api</module>
         <module>spring-cloud-demo-consumer</module>
-        <module>spring-cloud-demo-producter-8001</module>
-        <module>spring-cloud-demo-producter-8002</module>
+        <module>spring-cloud-demo-producter</module>
         <module>spring-cloud-demo-eureka-server-7001</module>
         <module>spring-cloud-demo-eureka-server-7002</module>
     </modules>

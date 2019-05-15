@@ -9,7 +9,7 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	
-	<artifactId>spring-cloud-demo-producter-8001</artifactId>
+	<artifactId>spring-cloud-demo-producter</artifactId>
 	
 	<dependencies>
 		<dependency>
