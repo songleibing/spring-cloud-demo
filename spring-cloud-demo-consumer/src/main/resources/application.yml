@@ -6,7 +6,8 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka-01.com:7001/eureka/;http://eureka-02.com:7002/eureka/
+      defaultZone: http://eureka-01.com:7001/eureka/,http://eureka-02.com:7002/eureka/
+    register-with-eureka: false
   instance:
     instance-id: ${spring.application.name}:${server.port}
     prefer-ip-address: true    # 访问路径显示IP地址

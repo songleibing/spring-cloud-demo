@@ -9,9 +9,18 @@ import java.util.Random;
 @SpringBootApplication
 @EnableDiscoveryClient
 public class ProducterApplication {
-	
-	public static void main(String[] args) {
-		System.setProperty("server.port", String.valueOf(new Random().nextInt(100000)));
-		SpringApplication.run(ProducterApplication.class, args);
-	}
+
+    public static void main(String[] args) {
+        System.setProperty("server.port", randomPort());
+        SpringApplication.run(ProducterApplication.class, args);
+    }
+
+    private static String randomPort() {
+        while (true) {
+            int port = new Random().nextInt(100000);
+            if (port >= 30000 && port <= 40000) {
+                return String.valueOf(port);
+            }
+        }
+    }
 }
