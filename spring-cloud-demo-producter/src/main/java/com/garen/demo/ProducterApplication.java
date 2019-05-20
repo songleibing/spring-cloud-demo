@@ -6,8 +6,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 import java.util.Random;
 
-@SpringBootApplication
 @EnableDiscoveryClient
+@SpringBootApplication
 public class ProducterApplication {
 
     public static void main(String[] args) {
